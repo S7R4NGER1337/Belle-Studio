@@ -40,7 +40,7 @@
 
 .navLink:hover {
     cursor: pointer;
-    color: rgb(248, 90, 201)
+    color: hsl(340 75% 60%)
 }
 
 .navLink {
