@@ -1,3 +1,54 @@
-.navContainer{
-    
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1rem solid rgb(187, 186, 186);
+}
+
+.navLinksContainer {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navHeading {
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, #ff00ff, #c80aee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.navButton {
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: bold;
+    padding: 0.6em 1.5em;
+    color: white;
+    background-image: linear-gradient(to right, #ff00ff, #e7c70e);
+    transition: background-image 0.3s ease-in-out;
+    background-size: 100% 100%;
+}
+
+.navButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0rem 0rem 1rem rgb(248, 90, 201)
+}
+
+.navLink:hover {
+    cursor: pointer;
+    color: rgb(248, 90, 201)
+}
+
+.navLink {
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+
+    .navLink {
+        display: none;
+    }
 }
