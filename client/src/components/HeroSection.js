@@ -1,6 +1,6 @@
 import styles from './heroSection.module.css'
 
-export default function HeroSection() {
+export default function HeroSection({servicesRef, contactRef}) {
     return <div className={styles.heroSectionBackground}>
         <div className={styles.heroSectionContainer}>
         <div className={styles.heroHeading}>
@@ -10,8 +10,8 @@ export default function HeroSection() {
         </div>
         <p className={styles.heroParagraph}>Experience luxury beauty treatments in our serene studio. From rejuvenating facials to expert nail care, we enhance your natural glow with personalized attention.</p>
         <div className={styles.heroButtons}>
-            <button className={styles.bookAppointment}>Book Appointment</button>
-            <button className={styles.viewServices}>View Services</button>
+            <button className={styles.bookAppointment} onClick={() => contactRef()}>Book Appointment</button>
+            <button className={styles.viewServices} onClick={() => servicesRef()}>View Services</button>
         </div>
         </div>
     </div>

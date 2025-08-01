@@ -8,9 +8,9 @@ import Nav from "../components/Nav";
 
 export default function Home() {
   const aboutUsRef = useRef(null);
-  const contactRef = useRef(null)
-  const servicesRef = useRef(null)
-  const homeRef = useRef(null)
+  const contactRef = useRef(null);
+  const servicesRef = useRef(null);
+  const homeRef = useRef(null);
 
   const readyForYourJourney = {
     heading: "Ready for Your Beauty Journey?",
@@ -29,27 +29,31 @@ export default function Home() {
 
   return (
     <>
-      <Nav aboutUsRef={() => scrollToSection(aboutUsRef)} 
-            contactRef={() => scrollToSection(contactRef)}
-            servicesRef={() => scrollToSection(servicesRef)}
-            homeRef={() => scrollToSection(homeRef)}
-        />
+      <Nav
+        aboutUsRef={() => scrollToSection(aboutUsRef)}
+        contactRef={() => scrollToSection(contactRef)}
+        servicesRef={() => scrollToSection(servicesRef)}
+        homeRef={() => scrollToSection(homeRef)}
+      />
       <div ref={homeRef}>
-        <HeroSection />
+        <HeroSection
+          servicesRef={() => scrollToSection(servicesRef)}
+          contactRef={() => scrollToSection(contactRef)}
+        />
       </div>
 
       <div ref={servicesRef}>
         <OurServices />
       </div>
 
-        <AreYouReady sectionData={readyForYourJourney} />
+      <AreYouReady sectionData={readyForYourJourney} />
 
       <div ref={aboutUsRef}>
         <AboutUs />
       </div>
 
       <div ref={contactRef}>
-        <GetInTouch /> 
+        <GetInTouch />
       </div>
 
       <AreYouReady sectionData={readyToTransform} />
