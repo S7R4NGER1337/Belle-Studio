@@ -1,0 +1,56 @@
+.footerContainer {
+    gap: 2em;
+    padding: 2em;
+    background-color: hsl(340 25% 15%);
+    color: white;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent {
+    display: flex;
+    gap: 5rem;
+}
+
+.belleStudio {
+    max-width: 25rem;
+    margin-right: 25rem;
+}
+
+.servicesHeading,
+.quickLinksHeading,
+.belleStudioHeading {
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+    background-image: linear-gradient(135deg, hsl(340 75% 45%), hsl(340 65% 65%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+}
+
+.servicesParagraph,
+.quickLinksParagraph,
+.belleStudioParagraph {
+    color: rgb(189, 187, 187);
+    font-size: 0.9rem;
+}
+
+.belleStudioHeading {
+    font-size: 1.6rem;
+    margin-bottom: 1em;
+    background-image: linear-gradient(135deg, hsl(340 75% 45%), hsl(340 65% 65%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.line{
+    border: 0.1em solid gray;
+    width: 70%;
+}
