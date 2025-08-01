@@ -54,3 +54,14 @@
     border: 0.1em solid gray;
     width: 70%;
 }
+
+.rights{
+    color: rgb(189, 187, 187);
+}
+
+@media (max-width: 700px){
+    .footerContent{
+        flex-direction: column;
+        gap: 1em;
+    }
+}

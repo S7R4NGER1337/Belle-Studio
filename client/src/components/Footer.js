@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.line}/>
-      <p>2025 Belle Studio. All rights reserver.</p>
+      <p className={styles.rights}>2025 Belle Studio. All rights reserver.</p>
     </div>
   );
 }
