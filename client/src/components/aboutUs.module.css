@@ -1,0 +1,56 @@
+.aboutUsContainer{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.aboutUsInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 36rem;
+}
+
+.heading{
+    font-size: 3rem;
+    background-image: linear-gradient(135deg, hsl(340 75% 45%), hsl(340 65% 65%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.paragraph{
+    color: hsl(340 15% 45%);
+    font-weight: 400;
+}
+
+.additionalData{
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8em;
+}
+
+.additionalDataCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.additionalDataH1{
+    background-image: linear-gradient(135deg, hsl(340 75% 45%), hsl(340 65% 65%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.additionalDataP{
+    color: hsl(340 15% 45%);
+}
