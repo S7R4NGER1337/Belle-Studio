@@ -1,5 +1,6 @@
 import AboutUs from "../components/AboutUs";
 import AreYouReady from "../components/AreYouReady";
+import GetInTouch from "../components/GetInTouch";
 import HeroSection from "../components/HeroSection";
 import OurServices from "../components/OurServices";
 
@@ -14,5 +15,6 @@ export default function Home() {
         <OurServices />
         <AreYouReady sectionData={readyForYourJourney}/>
         <AboutUs />
+        <GetInTouch />
     </>
 }

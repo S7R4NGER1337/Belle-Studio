@@ -1,0 +1,26 @@
+.getInTouchContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.getIntouchHeading{
+    font-size: 3rem;
+    background-image: linear-gradient(135deg, hsl(340 75% 45%), hsl(340 65% 65%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.getInTouchParagraph{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    text-align: center;
+    color: hsl(340 15% 45%);
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 40rem;
+}
