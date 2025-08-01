@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 0.1rem solid rgb(187, 186, 186);
+    border-bottom: 0.1rem solid rgba(187, 186, 186, 0.596);
 }
 
 .navLinksContainer {
@@ -47,7 +47,7 @@
     font-weight: 400;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     .navLink {
         display: none;
