@@ -38,6 +38,7 @@
 .belleStudioParagraph {
     color: rgb(189, 187, 187);
     font-size: 0.9rem;
+    margin-top: 0.5em;
 }
 
 .belleStudioHeading {
@@ -57,6 +58,11 @@
 
 .rights{
     color: rgb(189, 187, 187);
+}
+
+.quickLinksParagraph:hover{
+    cursor: pointer;
+    color: white
 }
 
 @media (max-width: 700px){
