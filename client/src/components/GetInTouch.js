@@ -31,7 +31,7 @@ export default function GetInTouch() {
         today
       </p>
       <div className={styles.getIntouchCardsContainer}>
-        {getInTouchCards.map(card => <GetInTouchCard cardData={card}/>)}
+        {getInTouchCards.map(card => <GetInTouchCard cardData={card} key={card.name}/>)}
       </div>
     </div>
   );
