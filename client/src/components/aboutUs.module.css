@@ -1,4 +1,6 @@
 .aboutUsContainer{
+    padding: 2em;
+    background-color: hsl(340 15% 98%);
     margin-top: 10rem;
     display: flex;
     justify-content: center;
@@ -53,4 +55,8 @@
 
 .additionalDataP{
     color: hsl(340 15% 45%);
+}
+
+.aboutUsImage{
+    border-radius: 1em;
 }
