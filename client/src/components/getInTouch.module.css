@@ -32,3 +32,9 @@
     flex-wrap: wrap;
     gap: 3em;
 }
+
+@media (max-width: 700px){
+    .getIntouchCardsContainer{
+        gap: 1em;
+    }
+}
