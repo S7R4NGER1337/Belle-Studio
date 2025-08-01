@@ -9,6 +9,11 @@ export default function Home() {
         heading: 'Ready for Your Beauty Journey?',
         buttonName: 'Book Your Session'
     }
+    const readyToTransform = {
+        heading: 'Ready for Your Beauty Journey?',
+        paragraph: 'Book your appointment today and let our experts help you discover your most beautiful self',
+        buttonName: 'Book Your Session'
+    }
 
     return <>
         <HeroSection />
@@ -16,5 +21,7 @@ export default function Home() {
         <AreYouReady sectionData={readyForYourJourney}/>
         <AboutUs />
         <GetInTouch />
+        <AreYouReady sectionData={readyToTransform}/>
+
     </>
 }

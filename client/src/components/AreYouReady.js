@@ -3,7 +3,7 @@ import styles from './areYouReady.module.css'
 export default function AreYouReady({sectionData}) {    
     const sectionHeading = sectionData.heading
     const buttonName = sectionData.buttonName
-    const sectionParagraph = sectionData.sectionParagraph
+    const sectionParagraph = sectionData.paragraph
 
     return(
         <div className={styles.sectionContainer}>
