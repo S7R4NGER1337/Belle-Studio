@@ -46,7 +46,11 @@ export default function OurServices() {
             <h1 className={styles.ourServicesHeading}>Our Services</h1>
             <p className={styles.ourServicesParagraph}>Discover our comprehensive range of beauty treatments designed to pamper and revitalize</p>
             <div className={styles.servicesCardsContainer}>
-            {services.map(service => <OurServicesCard serviceData={service} />)}
+            {services.map(service => 
+            <div className={styles.serviceCard}> 
+            <OurServicesCard serviceData={service} key={service.type}/>
+            </div>
+            )}
             </div>
         </div>
     )

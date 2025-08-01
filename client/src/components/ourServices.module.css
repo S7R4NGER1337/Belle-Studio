@@ -31,3 +31,7 @@
     flex-wrap: wrap;
     gap: 2rem;
 }
+
+.serviceCard:hover{
+  transform: scale(1.05);
+}
