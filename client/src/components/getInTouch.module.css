@@ -24,3 +24,11 @@
     font-weight: 400;
     max-width: 40rem;
 }
+
+.getIntouchCardsContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}

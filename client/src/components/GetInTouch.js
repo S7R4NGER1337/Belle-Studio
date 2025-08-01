@@ -1,4 +1,5 @@
 import styles from './getInTouch.module.css'
+import GetInTouchCard from './GetInTouchCard';
 
 export default function GetInTouch() {
   const getInTouchCards = [
@@ -30,7 +31,7 @@ export default function GetInTouch() {
         today
       </p>
       <div className={styles.getIntouchCardsContainer}>
-
+        {getInTouchCards.map(card => <GetInTouchCard cardData={card}/>)}
       </div>
     </div>
   );
