@@ -7,6 +7,7 @@
     align-items: center;
     gap: 5em;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .aboutUsInfo{
@@ -59,5 +60,6 @@
 }
 
 .aboutUsImage{
+    max-width: 100%;
     border-radius: 1em;
 }

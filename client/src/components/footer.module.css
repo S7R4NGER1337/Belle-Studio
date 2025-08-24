@@ -12,12 +12,13 @@
 
 .footerContent {
     display: flex;
+    max-width: 100%;
     gap: 5rem;
 }
 
 .belleStudio {
     max-width: 25rem;
-    margin-right: 25rem;
+    /* justify-self: left; //TODO */
 }
 
 .servicesHeading,
