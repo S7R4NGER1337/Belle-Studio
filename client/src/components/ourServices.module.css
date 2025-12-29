@@ -32,6 +32,10 @@
     gap: 2rem;
 }
 
+.serviceCard{
+    display: flex;
+    justify-content: center;
+}
 .serviceCard:hover{
   transform: scale(1.05);
 }
