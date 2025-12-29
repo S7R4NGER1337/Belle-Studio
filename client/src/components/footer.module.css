@@ -66,9 +66,88 @@
     color: white
 }
 
-@media (max-width: 700px){
-    .footerContent{
+/*
+ * Start of Responsive Styles - These are example media queries.
+ * You can customize the breakpoints and styles as needed for your design.
+ */
+
+/* Mobile devices (max 768px) */
+@media (max-width: 768px) {
+    .footerContainer {
+        margin-top: 5rem;
+        padding: 1.5em;
+    }
+
+    .footerContent {
         flex-direction: column;
-        gap: 1em;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .belleStudio,
+    .services,
+    .quickLinks {
+        max-width: 100%;
+    }
+
+    .belleStudioHeading {
+        font-size: 1.4rem;
+    }
+
+    .servicesHeading,
+    .quickLinksHeading {
+        font-size: 1rem;
+    }
+
+    .servicesParagraph,
+    .quickLinksParagraph,
+    .belleStudioParagraph {
+        font-size: 0.85rem;
+    }
+
+    .line {
+        width: 90%;
     }
 }
+
+/* Tablet devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footerContainer {
+        margin-top: 7rem;
+        padding: 1.8em;
+    }
+
+    .footerContent {
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .belleStudio,
+    .services,
+    .quickLinks {
+        max-width: 45%; /* Adjust as needed */
+    }
+
+    .belleStudioHeading {
+        font-size: 1.5rem;
+    }
+
+    .servicesHeading,
+    .quickLinksHeading {
+        font-size: 1.05rem;
+    }
+
+    .servicesParagraph,
+    .quickLinksParagraph,
+    .belleStudioParagraph {
+        font-size: 0.88rem;
+    }
+}
+
+/* Larger screens (min 1025px) - You can add more specific rules if needed */
+@media (min-width: 1025px) {
+    /* Styles for larger screens, often default or slight adjustments */
+}
+
+/* End of Responsive Styles */

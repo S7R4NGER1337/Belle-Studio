@@ -25,3 +25,47 @@
         color: hsl(340 15% 45%);
     font-weight: 400;
 }
+
+/*
+ * Start of Responsive Styles - These are example media queries.
+ * You can customize the breakpoints and styles as needed for your design.
+ */
+
+/* Mobile devices (max 768px) */
+@media (max-width: 768px) {
+    .cardContainer {
+        padding: 1.5em 3em;
+        margin-bottom: 1em;
+    }
+
+    .cardName {
+        font-size: 1.1rem;
+    }
+
+    .cardParagraph {
+        font-size: 0.8rem;
+    }
+}
+
+/* Tablet devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cardContainer {
+        padding: 1.5em 5em;
+        margin-bottom: 1.5em;
+    }
+
+    .cardName {
+        font-size: 1.2rem;
+    }
+
+    .cardParagraph {
+        font-size: 0.85rem;
+    }
+}
+
+/* Larger screens (min 1025px) - You can add more specific rules if needed */
+@media (min-width: 1025px) {
+    /* Styles for larger screens, often default or slight adjustments */
+}
+
+/* End of Responsive Styles */

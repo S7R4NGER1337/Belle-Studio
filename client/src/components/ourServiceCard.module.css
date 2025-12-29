@@ -46,3 +46,67 @@
     color: white;
     background-color: hsl(340 75% 45%);
 }
+
+/*
+ * Start of Responsive Styles - These are example media queries.
+ * You can customize the breakpoints and styles as needed for your design.
+ */
+
+/* Mobile devices (max 768px) */
+@media (max-width: 768px) {
+    .ourServiceCardContainer {
+        max-width: 90%;
+        padding: 1.5em;
+    }
+
+    .serviceType {
+        font-size: 1.1rem;
+    }
+
+    .serviceDescription {
+        font-size: 0.9rem;
+        margin: 0.8rem 0;
+    }
+
+    .serviceData {
+        font-size: 0.8rem;
+    }
+
+    .serviceButton {
+        padding: 0.7em;
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablet devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ourServiceCardContainer {
+        max-width: 45%;
+        padding: 1.6em;
+    }
+
+    .serviceType {
+        font-size: 1.2rem;
+    }
+
+    .serviceDescription {
+        font-size: 0.95rem;
+        margin: 0.9rem 0;
+    }
+
+    .serviceData {
+        font-size: 0.85rem;
+    }
+
+    .serviceButton {
+        padding: 0.8em;
+        font-size: 0.95rem;
+    }
+}
+
+/* Larger screens (min 1025px) - You can add more specific rules if needed */
+@media (min-width: 1025px) {
+    /* Styles for larger screens, often default or slight adjustments */
+}
+
+/* End of Responsive Styles */

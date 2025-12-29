@@ -80,3 +80,95 @@
 .heroParagraph{
     max-width: 45rem;
 }
+
+/*
+ * Start of Responsive Styles - These are example media queries.
+ * You can customize the breakpoints and styles as needed for your design.
+ */
+
+    /* Mobile devices (max 768px) */
+@media (max-width: 768px) {
+    .heroSectionBackground {
+        height: 80vh; /* Adjusted height for mobile */
+    }
+
+    .heroSectionContainer {
+        top: 45%; /* Slightly lower for better center */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem; /* Reduced gap */
+        padding: 0 1em; /* Added horizontal padding */
+    }
+
+    .heroHeading {
+        width: 100vw;
+        font-size: 1.5rem; /* Smaller font size */
+        line-height: 3rem; /* Adjusted line height */
+    }
+
+    .heroParagraph {
+        font-size: 0.9rem; /* Smaller font size */
+        max-width: 90%;
+        padding: 0 0.5em; /* Added padding for text */
+    }
+
+    .heroButtons {
+        flex-direction: column;
+        gap: 0.8rem; /* Reduced gap between buttons */
+        width: 100%; /* Make buttons take full width of container */
+        align-items: center; /* Center buttons */
+    }
+
+    .bookAppointment,
+    .viewServices {
+        width: 80%; /* Buttons take 80% width */
+        padding: 0.6em 1.5em; /* Adjusted padding */
+        font-size: 0.9rem; /* Smaller font size */
+    }
+}
+
+/* Tablet devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .heroSectionBackground {
+        height: 85vh; /* Adjusted height for tablet */
+    }
+
+    .heroSectionContainer {
+        top: 50%;
+        left: 45%; /* Adjusted left for better positioning */
+        transform: translate(-50%, -50%);
+        align-items: center;
+        text-align: center;
+        gap: 2rem; /* Adjusted gap */
+        padding: 0 2em; /* Added horizontal padding */
+    }
+
+    .heroHeading {
+        font-size: 1.9rem; /* Adjusted font size */
+        line-height: 3.5rem; /* Adjusted line height */
+    }
+
+    .heroParagraph {
+        font-size: 1rem; /* Adjusted font size */
+        max-width: 85%; /* Adjusted max-width */
+        padding: 0 1em; /* Added padding for text */
+    }
+
+    .heroButtons {
+        gap: 1rem; /* Adjusted gap */
+    }
+
+    .bookAppointment,
+    .viewServices {
+        padding: 0.7em 1.7em; /* Adjusted padding */
+        font-size: 0.95rem; /* Adjusted font size */
+    }
+}
+/* Larger screens (min 1025px) - You can add more specific rules if needed */
+@media (min-width: 1025px) {
+    /* Styles for larger screens, often default or slight adjustments */
+}
+
+/* End of Responsive Styles */

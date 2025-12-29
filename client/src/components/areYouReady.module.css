@@ -42,3 +42,64 @@
     text-align: center;
     color: white;
 }
+
+/*
+ * Start of Responsive Styles - These are example media queries.
+ * You can customize the breakpoints and styles as needed for your design.
+ */
+
+/* Mobile devices (max 768px) */
+@media (max-width: 768px) {
+    .sectionContainer {
+        width: 90vw;
+        margin-top: 4rem;
+        padding: 0.5em;
+    }
+
+    .sectionHeading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .sectionParagraph {
+        font-size: 0.9rem;
+        max-width: 90%;
+    }
+
+    .sectionButton {
+        margin-top: 1em;
+        padding: 0.8em 1.2em;
+        font-size: 0.8rem;
+    }
+}
+
+/* Tablet devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sectionContainer {
+        width: 85vw;
+        margin-top: 6rem;
+        padding: 0.8em;
+    }
+
+    .sectionHeading {
+        font-size: 1.8rem;
+    }
+
+    .sectionParagraph {
+        font-size: 1rem;
+        max-width: 80%;
+    }
+
+    .sectionButton {
+        margin-top: 1.5em;
+        padding: 0.9em 1.3em;
+        font-size: 0.85rem;
+    }
+}
+
+/* Larger screens (min 1025px) - You can add more specific rules if needed */
+@media (min-width: 1025px) {
+    /* Styles for larger screens, often default or slight adjustments */
+}
+
+/* End of Responsive Styles */

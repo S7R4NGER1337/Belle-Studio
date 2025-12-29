@@ -53,9 +53,57 @@
     font-weight: 400;
 }
 
-@media (max-width: 700px) {
+/*
+ * Start of Responsive Styles - These are example media queries.
+ * You can customize the breakpoints and styles as needed for your design.
+ */
 
-    .navLink {
-        display: none;
+/* Mobile devices (max 768px) */
+@media (max-width: 768px) {
+    .navContainer {
+        padding: 0.7rem;
+        justify-content: space-between;
+    }
+
+    .navLinksContainer {
+        display: none; /* Hide navigation links on small screens */
+    }
+
+    .navHeading {
+        font-size: 1.3rem;
+    }
+
+    .navButton {
+        padding: 0.5em 1em;
+        font-size: 0.9rem;
+    }
+
+    /* You might want to add a hamburger menu icon here for mobile navigation */
+}
+
+/* Tablet devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navContainer {
+        padding: 0.8rem;
+    }
+
+    .navLinksContainer {
+        gap: 1.5rem;
+    }
+
+    .navHeading {
+        font-size: 1.4rem;
+    }
+
+    .navButton {
+        padding: 0.5em 1.2em;
+        font-size: 0.95rem;
     }
 }
+
+/* Larger screens (min 1025px) - You can add more specific rules if needed */
+@media (min-width: 1025px) {
+    /* Styles for larger screens, often default or slight adjustments */
+}
+
+/* End of Responsive Styles */
